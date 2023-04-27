@@ -1,3 +1,8 @@
+git clone https://github.com/corey-truscott/dmenu.git
+cd dmenu
+make
+sudo make install || doas make install
+
 dmenu - dynamic menu
 ====================
 dmenu is an efficient dynamic menu for X.
